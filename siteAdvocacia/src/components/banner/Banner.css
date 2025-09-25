@@ -1,0 +1,8 @@
+#imgBanner{
+margin-top: 60px;
+}
+
+
+#imgBanner > img{
+    width: 100%;
+}

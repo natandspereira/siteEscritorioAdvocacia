@@ -1,0 +1,44 @@
+@import url('../../assets/css/color.css');
+
+#premios{
+ background-color: var(--color-background2);
+}
+
+#premios > h2{
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
+
+#premios > p{
+    text-align: center;
+    color: white;
+}
+
+#imgPremios {
+    overflow: hidden;
+    width: 100%; 
+    position: relative;
+}
+
+#scrollLinear {
+    display: flex;
+    animation: scroll-left 30s linear infinite;
+    padding: 10px;
+}
+
+#scrollLinear img {
+    width: 150px;
+    height: 150px; 
+    margin-right: 30px; 
+}
+
+
+@keyframes scroll-left {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-50%);
+    }
+}

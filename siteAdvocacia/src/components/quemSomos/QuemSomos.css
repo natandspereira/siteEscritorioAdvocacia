@@ -1,0 +1,29 @@
+@import url('../../assets/css/color.css');
+
+#quemSomos{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#imgQuemSomos{
+    width: 100%;
+    height: 600px;
+}
+
+#imgQuemSomos > img{
+    width: 500px;
+    margin: 20px 20px;
+}
+
+#txtQuemSomos > h2{
+    text-align: center;
+    color: var(--color-title);
+}
+
+#txtQuemSomos > p{
+   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+   line-height: 2rem;
+   text-align: justify;
+   margin: 0 20px;
+}
