@@ -1,4 +1,4 @@
-📄 ## Apresentação do Projeto
+📄 Apresentação do Projeto
 
 Bem-vindo ao siteAdvocacia, um site institucional desenvolvido para escritórios de advocacia, criado com o propósito de transmitir profissionalismo, credibilidade e proporcionar uma presença online moderna.
 
@@ -38,15 +38,13 @@ Espaço para expandir com formulários, integração com back-end ou outros recu
 
 🚀 Como usar / executar
 
-Clone o repositório:
+###Clone o repositório:
 
 git clone https://github.com/natandspereira/siteEscritorioAdvocacia.git
 
-
-Navegue até a pasta do site:
+###Navegue até a pasta do site:
 
 cd siteEscritorioAdvocacia/siteAdvocacia
-
 
 Abra os arquivos HTML no navegador ou hospede em um servidor local para testar.
 
