@@ -3,16 +3,20 @@ import instagram from '../../assets/img/redesSociais/instagram.svg'
 import facebook from '../../assets/img/redesSociais/facebook.svg'
 import youtube from '../../assets/img/redesSociais/youtube.svg'
 
+import { useTranslation} from 'react-i18next'
+
 function Footer(){
+    const { t } = useTranslation();
+
     return(
         <>
         <div id="containerFooter">
             <div id="txtLogo">
-                <p>Abreu e Lima</p>
-                <p>Advogados</p>
+                <p>{t("footer.logo")}</p>
+                <p>{t("footer.subLogo")}</p>
             </div>
             <div id="txtDireitos">
-                <p>Abreu & lima Advogados. Todos os dirietos reservados</p>
+                <p>{t("footer.txt")}</p>
             </div>
             <div id="redesSociais">
                 <img src={instagram} alt="" />

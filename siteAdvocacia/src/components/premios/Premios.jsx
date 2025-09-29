@@ -4,13 +4,20 @@ import prem3 from '../../assets/img/prem3.svg';
 import prem4 from '../../assets/img/prem4.svg';
 import prem5 from '../../assets/img/prem5.svg';
 import './Premios.css';
+import { useTranslation } from 'react-i18next';
 
 function Premios() {
+    const {t, i18n} = useTranslation();
+
+    const changeLanguage = (lng) => {
+        i18n.changeLanguage(lng);
+    }
+
     return (
         <>
             <section id='premios'>
-                <h2>NOSSOS PRÊMIOS</h2>
-                <p>Dedicação que leva a excelência.</p>
+                <h2>{t("premios.titulo")}</h2>
+                <p>{t("premios.txt")}</p>
                 <div id="imgPremios">
                     <div id='scrollLinear'>
                         <img src={prem1} alt="" />

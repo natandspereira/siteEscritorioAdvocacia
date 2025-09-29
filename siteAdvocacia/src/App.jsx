@@ -5,8 +5,11 @@ import Premios from "./components/premios/Premios.jsx"
 import Equipe from "./components/equipe/Equipe.jsx"
 import Atuacao from "./components/atuacao/Atuacao.jsx"
 import Footer from "./components/footer/Footer.jsx"
+
+
+
 function App() {
- 
+  
   return (
     <>
       <Header />

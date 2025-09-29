@@ -12,8 +12,10 @@
     "sass-watch": "sass --watch ./src/sass/index.scss ./src/assets/css/index.css"
   },
   "dependencies": {
+    "i18next": "^25.5.2",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
+    "react-i18next": "^16.0.0",
     "sass": "^1.93.2"
   },
   "devDependencies": {

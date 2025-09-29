@@ -1,24 +1,39 @@
 import './Header.css';
+import { useTranslation } from "react-i18next";
+
+
 
 function Header() {
-    return (
-        <div className="container">
-            <nav>
-                <label>
-                    <p>Abreu & Lima</p>
-                    <p>Advogados</p>
-                </label>
+  const { t, i18n } = useTranslation();
 
-                <ul>
-                    <li>INÍCIO</li>
-                    <li>QUEM SOMOS</li>
-                    <li>CONTATOS</li>
-                    <li>ÁREAS DE ATUAÇÃO</li>
-                    <li>PT-BR</li>
-                </ul>
-            </nav>
-        </div>
-    )
-}
+  const changeLanguage = (lng) => {
+    i18n.changeLanguage(lng);
+  }
+
+  return (
+    <div className="container">
+      <nav>
+        <label>
+          <p>{t("logo.name")}</p>
+          <p>{t("logo.subtitle")}</p>
+        </label>
+
+        <ul>
+          <li>{t("menu-header.home")}</li>
+          <li>{t("menu-header.about")}</li>
+          <li>{t("menu-header.contact")}</li>
+          <li>{t("menu-header.practice")}</li>
+          <li>
+            <select onChange={(e) => changeLanguage(e.target.value)} id='selectLanguage'>
+              <option value="pt">PT-BR</option>
+              <option value="en">EN</option>
+              <option value="es">ES</option>
+            </select>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  )
+};
 
 export default Header;

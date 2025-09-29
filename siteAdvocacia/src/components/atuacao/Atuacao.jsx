@@ -1,24 +1,24 @@
 import './Atuacao.css'
-
+import { useTranslation } from 'react-i18next';
 
 
 function Atuacao() {
+    const {t, i18n} = useTranslation();
+
     return (
         <>
             <div id="container">
                 <div id='atuacao'>
-                    <h2>ÁREAS DE ATUAÇÃO</h2>
-                    <p>
-                        Atuamos de forma estratégica e personalizada em diversas áreas do Direito, oferecendo soluções jurídicas eficazes para pessoas físicas e jurídicas. Nosso compromisso é com a excelência, ética e agilidade na defesa dos interesses de nossos clientes.
-                    </p>
+                    <h2>{t("atuacao.titulo")}</h2>
+                    <p>{t("atuacao.txt")}</p>
                 </div>
                 <div id='divAtuacao'>
-                    <div className="areas">Direito Cívil</div>
-                    <div className="areas">Direito trabalhista</div>
-                    <div className="areas">Direito Empresarial</div>
-                    <div className="areas">Direito Tributario</div>
-                    <div className="areas">Direito Familia</div>
-                    <div className="areas">Direito Penal</div>
+                    <div className="areas">{t("atuacao.direitoCivil")}</div>
+                    <div className="areas">{t("atuacao.direitoTrabalhista")}</div>
+                    <div className="areas">{t("atuacao.direitoEmpresarial")}</div>
+                    <div className="areas">{t("atuacao.direitoTributario")}</div>
+                    <div className="areas">{t("atuacao.direitoFamilia")}</div>
+                    <div className="areas">{t("atuacao.direitoPenal")}</div>
                 </div>
             </div>
         </>
