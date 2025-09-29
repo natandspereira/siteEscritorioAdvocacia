@@ -38,11 +38,11 @@ Espaço para expandir com formulários, integração com back-end ou outros recu
 
 🚀 Como usar / executar
 
-###Clone o repositório:
+### Clone o repositório:
 
 git clone https://github.com/natandspereira/siteEscritorioAdvocacia.git
 
-###Navegue até a pasta do site:
+### Navegue até a pasta do site:
 
 cd siteEscritorioAdvocacia/siteAdvocacia
 
