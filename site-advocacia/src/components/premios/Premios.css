@@ -1,0 +1,27 @@
+#divPremios{
+    background-color: #333;
+    color: white;
+    flex-direction: column;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+#txtPremios{
+    font-size: .8rem;
+    text-align: center;
+    margin: 10px 0;
+}
+
+#imgPremios{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+#imgPremios>img{
+    width: 60px;
+}

@@ -1,0 +1,23 @@
+#divFooter{
+    background-color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+    padding: 10px;
+    height: 70px;
+    border: none;
+    border-radius: 10px 10px 0 0;
+}
+
+#logoFooter, #txtFooter{
+    color: white;
+    font-size: .5rem;
+}
+
+#redesSociais{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+}
