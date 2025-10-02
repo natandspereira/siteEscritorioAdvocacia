@@ -1,5 +1,36 @@
 {
     "header": {
-        "logo": "Oi"
+        "logo": "Abreu & Lima",
+        "subLogo": "Abogados",
+        "inicio": "INICIO",
+        "quemSomos": "QUIÉNES SOMOS",
+        "contatos": "CONTACTOS",
+        "areasAtuacao": "ÁREAS DE PRÁCTICA"
+    },
+    "QS": {
+        "titulo": "QUIÉNES SOMOS",
+        "txtQS": "Con una trayectoria marcada por la excelencia y un compromiso inquebrantable con la justicia, nuestra firma se ha consolidado como referente en el panorama legal nacional. A lo largo de los años, hemos forjado una sólida reputación basada en la ética, el profesionalismo y la capacidad de ofrecer resultados consistentes para clientes de todos los tamaños y sectores. Nuestra práctica se guía por un enfoque jurídico moderno, que combina tradición e innovación para ofrecer soluciones legales estratégicas y efectivas. Contamos con un equipo multidisciplinario de abogados experimentados y altamente especializados, preparados para afrontar los retos más complejos, siempre enfocados en proteger los intereses de nuestros clientes y garantizar la mejor toma de decisiones."
+    },
+    "Premios": {
+        "titulo": "NUESTROS PREMIOS",
+        "txtPremios": "Dedicación que conduce a la excelencia."
+    },
+    "Atuacao": {
+        "titulo": "ÁREAS DE PRÁCTICA",
+        "txtAtuacao": "Operamos estratégicamente y de forma personalizada en diversas áreas del derecho, ofreciendo soluciones legales efectivas para particulares y empresas. Nos comprometemos con la excelencia, la ética y la agilidad en la defensa de los intereses de nuestros clientes.",
+        "direitoCivil": "Derecho Civil",
+        "direitoTrabalhista": "Derecho Laboral",
+        "direitoEmpresarial": "Derecho Empresarial",
+        "direitoFamiliar": "Derecho de Familia",
+        "direitoTributario": "Derecho Tributario",
+        "direitoPenal": "Derecho Penal"
+    },
+    "Equipe": {
+        "titulo": "EQUIPO"
+    },
+    "Footer": {
+        "logo": "Abreu e Lima",
+        "subLogo": "Abogados",
+        "txtFooter": "Abreu & Lima Abogados. Todos los derechos reservados."
     }
 }

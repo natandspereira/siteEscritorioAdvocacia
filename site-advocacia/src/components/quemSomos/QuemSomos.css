@@ -1,4 +1,4 @@
-#divQS{
+#divQS {
     width: 100%;
     display: flex;
     align-items: center;
@@ -6,18 +6,44 @@
     flex-direction: column;
 }
 
-#imgQS>img{
+#imgQS>img {
     width: 250px;
     margin: 20px 20px;
 }
 
-#txtQS{
+#txtQS {
     font-size: .8rem;
     text-align: center;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
 }
 
-#txtQS>p{
+#txtQS>p {
     margin: 0 20px;
     line-height: 1.2rem;
+}
+
+
+@media (min-width:1680px) {
+    #imgQS>img {
+        width: 450px !important;
+    }
+
+    #txtQS>p {
+        margin: 0 20px;
+        width: 750px;
+    }
+}
+
+@media (min-width:768px) {
+    #divQS {
+        flex-direction: row;
+    }
+
+    #imgQS>img {
+        width: 300px;
+    }
+
+    #txtQS {
+        font-size: 1rem;
+    }
 }

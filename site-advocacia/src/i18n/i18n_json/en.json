@@ -1,5 +1,36 @@
 {
     "header": {
-        "logo": "Hi"
+        "logo": "Abreu & Lima",
+        "subLogo": "Lawyers",
+        "inicio": "HOME",
+        "quemSomos": "ABOUT US",
+        "contatos": "CONTACTS",
+        "areasAtuacao": "PRACTICE AREAS"
+    },
+    "QS": {
+        "titulo": "WHO WE ARE",
+        "txtQS": "With a trajectory marked by excellence and an unwavering commitment to justice, our firm has established itself as a benchmark in the national legal landscape. Over the years, we have built a solid reputation based on ethics, professionalism, and the ability to deliver consistent results for clients of all sizes and from different sectors. Our practice is guided by a modern approach to law, combining tradition and innovation to offer strategic and effective legal solutions. We have a multidisciplinary team of experienced and highly specialized lawyers, prepared to handle the most complex challenges, always focused on protecting our clients' interests and ensuring the best decision-making."
+    },
+    "Premios": {
+        "titulo": "OUR AWARDS",
+        "txtPremios": "Dedication that leads to excellence."
+    },
+    "Atuacao": {
+        "titulo": "AREAS OF PRACTICE",
+        "txtAtuacao": "We operate strategically and personalized in various areas of law, offering effective legal solutions for individuals and businesses. We are committed to excellence, ethics, and agility in defending our clients' interests.",
+        "direitoCivil": "Civil Law",
+        "direitoTrabalhista": "Labor Law",
+        "direitoEmpresarial": "Business Law",
+        "direitoFamiliar": "Family Law",
+        "direitoTributario": "Tax Law",
+        "direitoPenal": "Criminal Law"
+    },
+    "Equipe": {
+        "titulo": "TEAM"
+    },
+    "Footer": {
+        "logo": "Abreu e Lima",
+        "subLogo": "Lawyers",
+        "txtFooter": "Abreu & Lima Lawyers. All rights reserved."
     }
 }

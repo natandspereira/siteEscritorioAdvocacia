@@ -1,5 +1,36 @@
 {
     "header": {
-        "logo": "Oi"
+        "logo": "Abreu & Lima",
+        "subLogo": "Advogados",
+        "inicio": "INÍCIO",
+        "quemSomos": "QUEM SOMOS",
+        "contatos": "CONTATOS",
+        "areasAtuacao": "ÁREAS DE ATUAÇÃO"
+    },
+    "QS": {
+        "titulo": "QUEM SOMOS",
+        "txtQS": "Com uma trajetória marcada pela excelência e pelo compromisso inabalável com a justiça, nosso escritório consolidou-se como referência no cenário jurídico nacional. Ao longo dos anos, construímos uma reputação sólida baseada na ética, no profissionalismo e na capacidade de entregar resultados consistentes para clientes de diferentes portes e segmentos. Nossa atuação é pautada por uma visão moderna do Direito, que alia tradição e inovação para oferecer soluções jurídicas estratégicas e eficazes. Contamos com uma equipe multidisciplinar de advogados experientes e altamente especializados, preparados para lidar com os desafios mais complexos, sempre com foco em proteger os interesses de nossos clientes e assegurar a melhor tomada de decisão."
+    },
+    "Premios":{
+        "titulo": "NOSSOS PRÊMIOS",
+        "txtPremios": "Dedicação que leva a excelência."
+    },
+    "Atuacao": {
+        "titulo": "ÁREAS DE ATUAÇÃO",
+        "txtAtuacao": "Atuamos de forma estratégica e personalizada em diversas áreas do Direito, oferecendo soluções jurídicas eficazes para pessoas físicas e jurídicas. Nosso compromisso é com a excelência, ética e agilidade na defesa dos interesses de nossos clientes.",
+        "direitoCivil": "Dirieto Cívil",
+        "direitoTrabalhista": "Dirieto Trabalhista",
+        "direitoEmpresarial": "Direito Empresarial",
+        "direitoFamiliar": "Direito Familiar",
+        "direitoTributario": "Direito Tributário",
+        "direitoPenal": "Direito Penal"
+    },
+    "Equipe":{
+        "titulo": "EQUIPE"
+    },
+    "Footer":{
+        "logo": "Abreu e Lima",
+        "subLogo": "Advogados",
+        "txtFooter": "Abreu & Lima Advogados. Todos os direitos reservados."
     }
 }

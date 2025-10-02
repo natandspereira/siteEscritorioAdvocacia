@@ -1,4 +1,4 @@
-#divPremios{
+#divPremios {
     background-color: #333;
     color: white;
     flex-direction: column;
@@ -9,19 +9,39 @@
     margin-top: 10px;
 }
 
-#txtPremios{
+#txtPremios {
     font-size: .8rem;
     text-align: center;
     margin: 10px 0;
 }
 
-#imgPremios{
+#imgPremios {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 10px;
 }
 
-#imgPremios>img{
+#imgPremios>img {
     width: 60px;
+}
+
+@media (min-width:1680px) {
+    #imgPremios>img {
+        width: 120px !important;
+    }
+}
+
+@media (min-width:768px) {
+    #divPremios {
+        height: 200px;
+    }
+
+    #txtPremios {
+        font-size: 1rem;
+    }
+
+    #imgPremios>img {
+        width: 110px;
+    }
 }

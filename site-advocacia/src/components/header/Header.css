@@ -64,7 +64,33 @@ ul>li>#selecMobile {
 
 /* RESPONSIVIDADE */
 @media (min-width:768px){
-    #btnMenuHeader{
+    #containerMobile{
+        display: none;
+    }
+
+    #divDesktop{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px;
+    }
+
+    #navDesktop>ul{
+        list-style-type: none;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        gap: 10px;
+    }
+
+    #selectDesktop{
+        border: none;
+        font-size: .8rem;
+    }
+}
+
+@media (max-width:767px){
+    #divDesktop{
         display: none;
     }
 }
