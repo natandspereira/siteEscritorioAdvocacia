@@ -14,23 +14,28 @@ import { useTranslation } from 'react-i18next'
 function Premios(){
     const { t } = useTranslation();
 
-    return(
-        <>
-            <div id="divPremios">
-                <div id="txtPremios">
-                    <h2>{t("Premios.titulo")}</h2>
-                    <p>{t("Premios.txtPremios")}</p>
-                </div>
-                <div id='imgPremios'>
-                    <img src={imgPremio1} alt="Imagem Premio" />
-                    <img src={imgPremio2} alt="Imagem Premio" />
-                    <img src={imgPremio3} alt="Imagem Premio" />
-                    <img src={imgPremio4} alt="Imagem Premio" />
-                    <img src={imgPremio5} alt="Imagem Premio" />
-                </div>
+  const premios = [imgPremio1, imgPremio2, imgPremio3, imgPremio4, imgPremio5];
+
+  return (
+    <div id="divPremios">
+      <div id="txtPremios">
+        <h2>{t("Premios.titulo")}</h2>
+        <p>{t("Premios.txtPremios")}</p>
+      </div>
+
+      <div className="premios-viewport">
+        <div className="premios-track">
+          {[...Array(4)].map((_, round) => (
+            <div className="premios-group" key={round}>
+              {premios.map((img, i) => (
+                <img key={`${round}-${i}`} src={img} alt="Imagem Premio" />
+              ))}
             </div>
-        </>
-    )
+          ))}
+        </div>
+      </div>
+    </div>
+  );
 }
 
 export default Premios;

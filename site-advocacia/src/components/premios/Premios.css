@@ -1,47 +1,51 @@
 #divPremios {
-    background-color: #333;
-    color: white;
-    flex-direction: column;
-    height: 150px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 10px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  overflow: hidden;
+  background-color: #333;
+  padding: 10px;
 }
 
 #txtPremios {
-    font-size: .8rem;
-    text-align: center;
-    margin: 10px 0;
+  text-align: center;
+  margin-bottom: 20px;
+  color: white;
 }
 
-#imgPremios {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
+.premios-viewport {
+  overflow: hidden;
+  width: 100%;
 }
 
-#imgPremios>img {
-    width: 60px;
+.premios-track {
+  display: flex;
+  width: max-content;
+  animation: premios-scroll 20s linear infinite;
 }
 
-@media (min-width:1680px) {
-    #imgPremios>img {
-        width: 120px !important;
-    }
+.premios-group {
+  display: flex;
+  gap: 40px; 
+  align-items: center;
+  padding-right: 40px;
 }
 
-@media (min-width:768px) {
-    #divPremios {
-        height: 200px;
-    }
+.premios-group img {
+  height: 80px; 
+  object-fit: contain;
+}
 
-    #txtPremios {
-        font-size: 1rem;
-    }
+@keyframes premios-scroll {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
 
-    #imgPremios>img {
-        width: 110px;
-    }
+.premios-track:hover {
+  animation-play-state: paused;
 }
