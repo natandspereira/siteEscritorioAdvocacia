@@ -33,6 +33,13 @@ Código-fonte completo do site (HTML, CSS, JavaScript, ReactJS).
 Recursos visuais e imagens utilizados no layout.
 
 Estrutura preparada para integrações futuras (formulários, back-end e outros recursos).
+## 📸 Demonstração
+
+Abaixo, algumas capturas de tela do site em funcionamento:
+
+![Demonstração 1](./src/assets/img/exemplo/demo1.png)  
+![Demonstração 2](./src/assets/img/exemplo/demo2.png)  
+![Demonstração 3](./src/assets/img/exemplo/demo3.png)
 
 🚀 Procedimentos de Utilização
 
