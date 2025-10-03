@@ -1,51 +1,51 @@
 📄 Apresentação do Projeto
 
-Bem-vindo ao siteAdvocacia, um site institucional desenvolvido para escritórios de advocacia, criado com o propósito de transmitir profissionalismo, credibilidade e proporcionar uma presença online moderna.
+Website institucional desenvolvido para escritórios de advocacia, com foco em transmitir profissionalismo, credibilidade e garantir uma presença digital moderna e eficiente.
 
-Este repositório reúne todos os arquivos e configurações que compõem o site, incluindo o layout, estilos, imagens, scripts e estrutura de conteúdo, pensado para ser facilmente mantido e adaptado.
+Este repositório contém todos os arquivos e configurações necessários para a implementação e manutenção do site, incluindo estrutura de layout, estilos, imagens, scripts e documentação.
 
-🎯 Objetivos
+🎯 Objetivos do Projeto
 
-Criar uma vitrine digital confiável e elegante para um escritório jurídico.
+Disponibilizar uma vitrine digital sólida e confiável para escritórios jurídicos.
 
-Destacar, de forma clara e organizada, informações institucionais: áreas de atuação, equipe, contato, missão, valores etc.
+Apresentar informações institucionais de forma clara e organizada (áreas de atuação, equipe, missão, valores e contato).
 
-Garantir que o site seja responsivo, para uma boa experiência em dispositivos móveis, tablets e desktops.
+Garantir responsividade e acessibilidade, oferecendo uma experiência consistente em diferentes dispositivos (desktop, tablet e mobile).
 
-Oferecer uma base que possa ser facilmente customizada ou expandida (novas páginas, atualizações de conteúdo, integração com formulários etc.).
+Proporcionar uma base escalável, preparada para futuras customizações, expansões de conteúdo e integrações.
 
 🛠 Tecnologias e Estrutura
 
-Embora os detalhes específicos variem de acordo com o desenvolvimento implementado, espera-se que o site esteja organizado com:
+O projeto foi estruturado segundo boas práticas de desenvolvimento, contemplando:
 
-HTML / CSS / JavaScript: estrutura, estilos e interatividade essenciais.
+HTML / CSS / JavaScript / ReactJS: componentes fundamentais de estrutura, estilo e interatividade.
 
-Arquivos estáticos organizados: separação clara entre páginas, estilos, imagens e scripts.
+Organização modular: separação clara entre páginas, folhas de estilo, scripts e recursos visuais.
 
-Boa prática de navegação: menu claro, hierarquia de conteúdo e usabilidade.
+Usabilidade: navegação intuitiva, hierarquia de conteúdo bem definida e experiência consistente.
 
-Facilidade de manutenção: estrutura modular que permite atualizações sem grandes retrabalhos.
+Manutenibilidade: arquitetura preparada para atualizações e evoluções sem necessidade de retrabalho extenso.
 
-✅ O que este repositório contém
+✅ Conteúdo do Repositório
 
-Todo o código-fonte necessário para rodar o site (arquivos HTML, CSS, JS).
+Código-fonte completo do site (HTML, CSS, JavaScript, ReactJS).
 
-Imagens e recursos visuais utilizados no layout.
+Recursos visuais e imagens utilizados no layout.
 
-Documentação ou orientações de uso (este README.md) para auxiliar no deploy, customizações e entendimento geral.
+Estrutura preparada para integrações futuras (formulários, back-end e outros recursos).
 
-Espaço para expandir com formulários, integração com back-end ou outros recursos futuros.
+🚀 Procedimentos de Utilização
 
-🚀 Como usar / executar
-
-### Clone o repositório:
+Clonar o repositório:
 
 git clone https://github.com/natandspereira/siteEscritorioAdvocacia.git
 
-### Navegue até a pasta do site:
+Acessar a pasta do projeto:
 
 cd siteEscritorioAdvocacia/siteAdvocacia
 
-Abra os arquivos HTML no navegador ou hospede em um servidor local para testar.
+Executar o projeto:
 
-Edite conteúdos, imagens e estilos conforme necessidade do escritório.
+Abrir os arquivos HTML diretamente em um navegador ou
+
+Hospedar em um servidor local para testes.
