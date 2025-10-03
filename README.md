@@ -37,9 +37,7 @@ Estrutura preparada para integrações futuras (formulários, back-end e outros 
 
 Abaixo, algumas capturas de tela do site em funcionamento:
 
-![Demonstração 1](https://raw.githubusercontent.com/natandspereira/siteEscritorioAdvocacia/main/site-advocacia/src/assets/img/exemplo/demo1.PNG)  
-![Demonstração 2](src/assets/img/exemplo/demo2.png)  
-![Demonstração 3](src/assets/img/exemplo/demo3.png) 
+![Demonstração 1](https://raw.githubusercontent.com/natandspereira/siteEscritorioAdvocacia/main/site-advocacia/src/assets/img/exemplo/demo1.PNG)  ![Demonstração 2](https://raw.githubusercontent.com/natandspereira/siteEscritorioAdvocacia/main/site-advocacia/src/assets/img/exemplo/demo2.PNG) ![Demonstração 3](https://raw.githubusercontent.com/natandspereira/siteEscritorioAdvocacia/main/site-advocacia/src/assets/img/exemplo/demo3.PNG)
 
 🚀 Procedimentos de Utilização
 
