@@ -37,9 +37,9 @@ Estrutura preparada para integrações futuras (formulários, back-end e outros 
 
 Abaixo, algumas capturas de tela do site em funcionamento:
 
-![Demonstração 1](./src/assets/img/exemplo/demo1.png)  
-![Demonstração 2](./src/assets/img/exemplo/demo2.png)  
-![Demonstração 3](./src/assets/img/exemplo/demo3.png)
+![Demonstração 1](./site-advocacia/src/assets/img/exemplo/demo1.png)  
+![Demonstração 2](./site-advocacia/src/assets/img/exemplo/demo2.png)  
+![Demonstração 3](./site-advocacia/src/assets/img/exemplo/demo3.png) 
 
 🚀 Procedimentos de Utilização
 
